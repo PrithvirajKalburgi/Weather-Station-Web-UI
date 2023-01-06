@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+      
+    <head>
+        <script src="server.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>  
+        <script src="styles.css"></script> 
+    </head>
+
+    <body>
+        <button id="main" onclick="page();">Main</button>
+        <button id="temperature" onclick="drawPage('','temperature');">Temperature</button>
+        <button id="windSpeed" onclick="drawPage('', 'wind_speed');">Wind Speed</button>
+        <button id="info" onclick="info();">Personal Info</button>
+        <span id="timeMenu"></span>
+        <span id="table"></span>
+
+    <div id="chart"> </div>
+
+    </body>
+
+    
+  
+
+</html>
